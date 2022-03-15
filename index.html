@@ -13,6 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
+    
 </head>
 <body>
     <header id="main-header">
@@ -20,15 +21,15 @@
         <div class="menu-container">
           <div class="menu">
             <ul class="top_menu pc-only">
-              <li><a href="#"><img src="./images/home_icon.svg" alt="홈">홈</a></li>
+              <li><a href="./index.html"><img src="./images/home_icon.svg" alt="홈">홈</a></li>
               <li><a href="#"><img src="./images/login_icon.svg" alt="로그인">로그인</a></li>
               <li><a href="#"><img src="./images/join_icon.svg" alt="회원가입">회원가입</a></li>
           </ul>
             <div id="gnb">
-                <h2><a href="#"><img src="./images/logo.png" alt="노루페인트"></a></h2>
+                <h2><a href="./index.html"><img src="./images/logo.png" alt="노루페인트"></a></h2>
                 <ul>
                     <li><a href="#">회사소개</a>
-                    <ul class="depth2">
+                    <ul class="depth2 pc-only">
                       <li><a href="#">회사소개</a></li>
                       <li><a href="#">CEO 인사말</a></li>
                       <li><a href="#">연혁</a></li>
@@ -37,14 +38,14 @@
                       <li><a href="#">찾아오시는 길</a></li>
                     </ul></li>
                     <li><a href="#">제품자료</a>
-                      <ul class="depth2">
+                      <ul class="depth2 pc-only">
                         <li><a href="#">제품안내</a></li>
                         <li><a href="#">페인트 컬러찾기</a></li>
                         <li><a href="#">기술지원</a></li>
                         <li><a href="#">페인트 가이드</a></li>
                       </ul></li>
                     <li><a href="#">미디어</a>
-                      <ul class="depth2">
+                      <ul class="depth2 pc-only">
                         <li><a href="#">NOROO NEWS</a></li>
                         <li><a href="#">NOROO NOW</a></li>
                         <li><a href="#">홍보자료실</a></li>
@@ -52,7 +53,7 @@
                         <li><a href="#">페인트잇수다</a></li>
                       </ul></li>
                     <li><a href="#">지속가능경영</a>
-                      <ul class="depth2">
+                      <ul class="depth2 pc-only">
                         <li><a href="#">지속가능경영</a></li>
                         <li><a href="#">지배구조</a></li>
                         <li><a href="#">사회공헌</a></li>
@@ -60,13 +61,13 @@
                         <li><a href="#">ESG등급</a></li>
                       </ul></li>
                     <li><a href="#">투자정보</a>
-                      <ul class="depth2">
+                      <ul class="depth2 pc-only">
                         <li><a href="#">재무정보</a></li>
                         <li><a href="#">공시&행사</a></li>
                         <li><a href="#">추가정보</a></li>
                       </ul></li>
                     <li><a href="#">고객지원</a>
-                      <ul class="depth2">
+                      <ul class="depth2 pc-only">
                         <li><a href="#">대리점 안내</a></li>
                         <li><a href="#">지점/영업소 안내</a></li>
                         <li><a href="#">담당자 안내</a></li>
@@ -109,22 +110,81 @@
       </div>
     </header>
 
+    
+    <div class="sitemap-modal pc-only">
+      <button id="close"><img src="./images/close_icon.svg" alt="닫기"></button>
+      <ul>
+        <li><a href="#">회사소개</a>
+          <ul>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">CEO 인사말</a></li>
+            <li><a href="#">연혁</a></li>
+            <li><a href="#">계열사 및 관계사</a></li>
+            <li><a href="#">채용정보</a></li>
+            <li><a href="#">찾아오시는 길</a></li>
+          </ul>
+        </li>
+        <li><a href="#">제품자료</a>
+          <ul>
+            <li><a href="#">제품안내</a></li>
+            <li><a href="#">페인트 컬러찾기</a></li>
+            <li><a href="#">기술지원</a></li>
+            <li><a href="#">페인트 가이드</a></li>
+          </ul>
+        </li>
+        <li><a href="#">미디어</a>
+          <ul>                        
+            <li><a href="#">NOROO NEWS</a></li>
+            <li><a href="#">NOROO NOW</a></li>
+            <li><a href="#">홍보자료실</a></li>
+            <li><a href="#">노루그룹 사보</a></li>
+            <li><a href="#">페인트잇수다</a></li>
+          </ul>
+        </li>
+        <li><a href="#">지속가능경영</a>
+          <ul>
+            <li><a href="#">지속가능경영</a></li>
+            <li><a href="#">지배구조</a></li>
+            <li><a href="#">사회공헌</a></li>
+            <li><a href="#">윤리경영</a></li>
+            <li><a href="#">ESG등급</a></li>
+          </ul>
+        </li>
+        <li><a href="#">투자정보</a>
+          <ul>
+            <li><a href="#">재무정보</a></li>
+            <li><a href="#">공시&행사</a></li>
+            <li><a href="#">추가정보</a></li>
+          </ul></li>
+        <li><a href="#">고객지원</a>
+          <ul>
+            <li><a href="#">대리점 안내</a></li>
+            <li><a href="#">지점/영업소 안내</a></li>
+            <li><a href="#">담당자 안내</a></li>
+            <li><a href="#">컬러디자인 센터</a></li>
+            <li><a href="#">Q&A</a></li>
+          </ul></li>
+      </ul>
+    </div>
+
     <main>
       <section id="about">
         <img src="./images/about.jpg" alt="about">
-        <h2>세상에 없는 길 <br>NOROO가 만드는 새로운 길</h2>
-        <p>조국에 대한 사업보국의 열망과 투철한 장인정신으로 괄목한 성장을 
-          <br>이루어낸 노루그룹은 글로벌 경영에 대한 굳건한 각오로 
-          <br>세계 시장 공략에 노루그룹의 핵심역량을 쏟아 붓고 있습니다
-        </p>
+        <div class="text">
+          <h2>세상에 없는 길 <br>NOROO가 만드는 새로운 길</h2>
+          <p>조국에 대한 사업보국의 열망과 투철한 장인정신으로 괄목한 성장을 
+            <br>이루어낸 노루그룹은 글로벌 경영에 대한 굳건한 각오로 
+            <br>세계 시장 공략에 노루그룹의 핵심역량을 쏟아 붓고 있습니다
+          </p>
         </div>
+      </div>
       </section>
 
       <section id="banner">
         <div class="title">
           <p>#펜톤페인트 챌린지</p>
           <h3>여러분의 후기를 자랑해주세요!</h3>
-          <a href="#">이벤트 참여하기</a>
+          <a href="https://blog.naver.com/pantonepaint/222613768043" target="_blank">이벤트 참여하기</a>
         </div>
       </section>
 
@@ -141,7 +201,7 @@
             <li><img src="./images/instagram_img03.jpg" alt="인스타그램"></li>
             <li><img src="./images/instagram_img04.jpg" alt="인스타그램"></li>
           </ul>
-          <a href="#"><img src="./images/plus_icon.svg" alt="더보기"></a>
+          <a href="https://www.instagram.com/noroopaint/" target="_blank"><img src="./images/plus_icon.svg" alt="더보기"></a>
           <div class="text-box">
             <h3>[EVENT] #테레사프레이타스사진전 
                 <br>초대권 앵콜 이벤트</h3>
@@ -152,7 +212,7 @@
               <br>총 100매의 초대권을 준비했어요.
               <br>50분에게 1인 2매의 전시 초대권을 보내 드립니다.
             </p>
-            <a href="#">바로가기<img src="./images/go_arrow.svg" alt="바로가기"></a>
+            <a href="https://www.instagram.com/p/Ca6Hb2wLw8J/" target="_blank">바로가기<img src="./images/go_arrow.svg" alt="바로가기"></a>
           </div>
           </div>
 
@@ -164,7 +224,7 @@
           <p>NOROO NEWS</p>
           <div class="line"></div>
         </div>
-        <a href="#" class="plus_icon"><img src="./images/plus_icon.svg" alt="더보기"></a>
+        <a href="https://www.noroopaint.com/kor/pr/news_list.asp" class="plus_icon" target="_blank"><img src="./images/plus_icon.svg" alt="더보기"></a>
         <div class="info-container">
           <div class="info-box">
              <div class="text">
@@ -175,7 +235,7 @@
                   <br>
                     코로나19로 인해 약 일주일간 웹에서 전국 대리점을 대상으로 진행된 이번 세미나는 신제품 공개와 함께 슬로건 등 미래 도료시장에서의 노루페인트 전략 방향을 공유하며 성공리에 마쳤다.
                   </p>
-                  <a href="#" id="more"><img src="./images/./news_go_arrow.svg" alt=""></a>
+                  <a href="https://www.noroopaint.com/kor/pr/news_view.asp?boardidx=480" id="more" class="pc-only" target="_blank"><img src="./images/./news_go_arrow.svg" alt="더보기"></a>
                 </div>
              </div>
           </div>
@@ -187,11 +247,11 @@
                  <p>노루페인트가 현실과 가상을 넘나드는 가상현실 공간에서 ‘2022 노루페인트 세미나’를 오는 22일부터 28일까지 개최한다.<br>
                  <br>노루 파워-업 앱, 페인트잇수다, 제페토 노루맵 등 업계에서 가장 먼저 B2B2C 디지털 서비스와 콘텐츠를 제공하며 도료 업계 ‘디지털 전환’ 바람에 앞장섰던 노루페인트는 이번 세미나를 통해...
                  </p>
-                 <a href="#" id="more"><img src="./images/./news_go_arrow.svg" alt=""></a>
+                 <a href="https://www.noroopaint.com/kor/pr/news_view.asp?boardidx=479&page=1&searchtype=&searchword=" id="more" target="_blank"><img src="./images/./news_go_arrow.svg" alt="더보기"></a>
                </div>
             </div>
-         </div>
-         <div class="info-box">
+          </div>
+          <div class="info-box">
           <div class="text">
             <h3>테레사 프레이타스 사진전과
               <br>아트 콜라보 진행…봄 감성 가득 채워</h3>
@@ -201,11 +261,11 @@
                <br>
                노루페인트는 이번 사진전 주제인 ‘어느 봄날’에 맞춰 봄 감성을 느낄 수 있는 파스텔 톤을 적극 활용해 공간을 연출했다. 순&수 올커버...
                </p>
-               <a href="#" id="more"><img src="./images/./news_go_arrow.svg" alt=""></a>
+               <a href="https://www.noroopaint.com/kor/pr/news_view.asp?boardidx=478&page=1&searchtype=&searchword=" id="more" target="_blank"><img src="./images/./news_go_arrow.svg" alt="더보기"></a>
              </div>
           </div>
-       </div>
-       <div class="info-box">
+          </div>
+          <div class="info-box">
         <div class="text">
           <h3>노루그룹, 컬러 트렌드 북 ‘COVER ALL(커버올)’ 여섯 번째 버전 공개</h3>
             <div class="text-box">
@@ -213,10 +273,10 @@
               <br>
              <br>2016년 ‘humanities’를 시작으로 매년 발간되고 있는 커버올은 우리 삶의 큰 변화에 대한 부분과 디자인, 컬러, 소재 활용에 있어 다층적인 접근을 시도했다. 또 컬러를 통한 사회적 나눔...
              </p>
-             <a href="#" id="more"><img src="./images/./news_go_arrow.svg" alt=""></a>
+             <a href="https://www.noroopaint.com/kor/pr/news_view.asp?boardidx=477&page=1&searchtype=&searchword=" id="more" target="_blank"><img src="./images/./news_go_arrow.svg" alt="더보기"></a>
            </div>
         </div>
-     </div>
+          </div>
         </div>
       </section>
 
@@ -227,7 +287,7 @@
         </div>
         <div class="media-container">
           <div class="media-box">
-            <a href="#">
+            <a href="https://www.noroopaint.com/kor/pr/sabo_list.asp" target="_blank">
               <div class="media-title">
                 <h3>NOROO MAGAZINE</h3>
                 <p>노루그룹사보</p>
@@ -235,7 +295,7 @@
             </a>
           </div>
           <div class="media-box">
-            <a href="#">
+            <a href="https://www.noroopaint.com/kor/color/color_chart.asp" target="_blank">
               <div class="media-title">
                 <h3>COLOR CHART</h3>
                 <p>컬러차트</p>
@@ -243,7 +303,7 @@
             </a>
           </div>
           <div class="media-box">
-            <a href="#">
+            <a href="https://www.youtube.com/channel/UC1oFAi4TWedXDT_GLBQnt7A" target="_blank">
               <div class="media-title">
                 <h3>PAINTING</h3>
                 <p>페인팅잇수다</p>
@@ -251,7 +311,7 @@
             </a>
           </div>
           <div class="media-box">
-            <a href="#">
+            <a href="https://www.noroopaint.com/paintguide/" target="_blank">
               <div class="media-title">
                 <h3>PAINT GUIDE</h3>
                 <p>페인트가이드</p>
@@ -265,23 +325,23 @@
     <footer id="main-footer">
       <h3 class="footer-logo"><img src="./images/footer_logo 1.png" alt="로고"></h3>
       <div class="text">
-        <ul class="footer-menu">
+        <ul class="footer-menu pc-only">
           <li><a href="#">NOROO BROCHURE</a><span>|</span></li>
           <li><a href="#"><strong>개인정보취급방침</strong></a><span>|</span></li>
           <li><a href="#">이메일무단수집거부</a><span>|</span></li>
           <li><a href="#">오시는 길</a></li>
         </ul>
-        <p>(13977) 경기도 안양시 만안구 박달로 351 | 대표이사 조성국, 김용기 | 사업자등록번호 : 123-86-06034
+        <p class="adress">(13977) 경기도 안양시 만안구 박달로 351 | 대표이사 조성국, 김용기 | 사업자등록번호 : 123-86-06034
           <br>대표전화 031-467-6114 | 소비자 상담실 080-944-7777(수신자 부담)
         </p>
         <p class="copy">Copyright &copy; NOROO Paint & Coatings Co., Ltd. All Rights Reserved.</p>
       </div>
       <div class="footer-right">
         <ul class="sns">
-          <li><a href="#"><img src="./images/sns_icon01.png" alt="페이스북"></a></li>
-          <li><a href="#"><img src="./images/sns_icon02.png" alt="인스타그램"></a></li>
-          <li><a href="#"><img src="./images/sns_icon03.png" alt="블로그"></a></li>
-          <li><a href="#"><img src="./images/sns_icon04.png" alt="유튜브"></a></li>
+          <li><a href="https://www.facebook.com/noroopaint" target="_blank"><img src="./images/sns_icon01.png" alt="페이스북"></a></li>
+          <li><a href="https://www.instagram.com/noroopaint/" target="_blank"><img src="./images/sns_icon02.png" alt="인스타그램"></a></li>
+          <li><a href="https://blog.naver.com/norooblog" target="_blank"><img src="./images/sns_icon03.png" alt="블로그"></a></li>
+          <li><a href="https://www.youtube.com/user/NOROOpaints" target="_blank"><img src="./images/sns_icon04.png" alt="유튜브"></a></li>
         </ul>
         <select name="family-link" id="family-link" class="pc-only">
           <option value="">Family Site</option>
@@ -291,13 +351,14 @@
         </select>
       </div>
 
-      <ul class="mark">
+      <ul class="mark pc-only">
         <li><img src="./images/mark01.png" alt="마크"></li>
         <li><img src="./images/mark02.png" alt="마크"></li>
         <li><img src="./images/mark03.png" alt="마크"></li>
       </ul>
 
     </footer>
+
 
     <script src="./js/swiper.js"></script>
 </body>

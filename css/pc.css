@@ -56,7 +56,6 @@
     right: 219px;
 }
 
-
 #gnb > ul > li:not(:last-child){
     margin-right: 30px;
 }
@@ -223,6 +222,76 @@
     opacity: 1;
   }
 
+  /* 사이트맵 */
+
+  .sitemap-modal{
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.9);
+      z-index: 999;
+      position: fixed;
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      display: none;
+  }
+
+  .sitemap-modal.on{
+      display: flex;
+  }
+
+  .sitemap-modal #close{
+      background-color: transparent;
+      border: none;
+      position: absolute;
+      top: 59px;
+      right: 53px;
+  }
+  .sitemap-modal #close:hover{
+      cursor: pointer;
+  }
+
+
+  .sitemap-modal a{
+      color: #fff;
+  }
+
+  .sitemap-modal a:hover{
+      color: #E31D1A;
+  }
+
+  .sitemap-modal > ul{
+      display: flex;
+      text-align: center;
+  }
+
+  .sitemap-modal > ul > li:not(:last-child){
+      margin-right: 80px;
+  }
+
+  .sitemap-modal > ul > li > a{
+      font-size: 40px;
+      font-weight: 600;
+  }
+  
+  .sitemap-modal > ul > li > ul{
+      text-align: center;
+  }
+
+  .sitemap-modal > ul > li > ul > li:first-child{
+      margin-top: 28px;
+  }
+
+  .sitemap-modal > ul > li > ul > li:not(:first-child){
+      margin-top: 23px;
+  }
+
+  .sitemap-modal > ul > li > ul > li > a{
+      font-size: 24.47px;
+      font-weight: 500;
+  }
+
 
   /* about 영역 */
 
@@ -237,10 +306,11 @@
     position: absolute;
     top: 130px;
     right: 136.35px;
+    border-radius: 50px;
 }
 
 
-#about > h2{
+#about h2{
     position: absolute;
     left: 215px;
     top: 329px;
@@ -249,7 +319,7 @@
     font-weight: 500;
 }
 
-#about > p{
+#about p{
     font-size: 20px;
     font-weight: 400;
     position: absolute;
@@ -517,6 +587,9 @@ main section .title .line{
 #media .media-box > a{
     color: #fff;
     text-align: center;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 #media .media-container{
@@ -545,6 +618,15 @@ main section .title .line{
     background-image: url(../images/media04.jpg);
     background-position: center;
     background-size: cover;
+}
+
+#media .media-box .media-title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #media .media-box .media-title > h3{
