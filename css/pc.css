@@ -417,6 +417,10 @@ main section .title .line{
     margin-left: 33px;
 }
 
+#sns .sns-container .images li:not(:first-child):hover{
+    cursor: pointer;
+}
+
 #sns .sns-container .images li img{
     width: 152px;
     height: 141px;
