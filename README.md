@@ -4,9 +4,8 @@
 2. 구현
   - PC, Mobile 반응형
   - PC sitemap Modal - Javascript
+  - PC GNB hover 효과 - CSS, Javascript
   - Mobile GNB Toggle - Javascript
   - Slider - Javascript plug-in
-      옵션설정: direction(방향), effect(효과)...
-      UI 디자인 수정: css
   - SNS Gallery - Javascript
-  - News hover - CSS, Javascript
+  - News,media section hover - CSS, Javascript
