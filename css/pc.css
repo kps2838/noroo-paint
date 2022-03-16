@@ -68,10 +68,6 @@
     font-size: 20px;
 }
 
-#gnb > ul > li a:hover{
-    color: #E31D1A;
-}
-
 
 #gnb > ul > li > .depth2{
     font-size: 16px;
