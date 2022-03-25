@@ -17,7 +17,7 @@
         + News Notice 게시판 tab 버튼 - CSS, Javascript
         + 동영상 삽입
         + 스크롤 애니메이션 - Javascript plug-in
-        + top 버튼 - css(fixed)
+        + top 버튼 - CSS(fixed)
         + 서브페이지 애니메이션 효과 - CSS animation
         + 브레드크럼 메뉴 효과 - CSS, Javascript
         + 제품정보 페이지 search - CSS form
