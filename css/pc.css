@@ -372,6 +372,26 @@
     margin-top: 15px;
 }
 
+#banner .title > a > span{
+    animation-name: banner-click;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes banner-click {
+    0%{
+        font-size: 24px;
+    }
+
+    50%{
+        font-size: 28px;
+    }
+
+    100%{
+        font-size: 24px;
+    }
+}
+
 /* 제목 설정 */
 
 main section .title{
@@ -418,9 +438,14 @@ main section .title .line{
     cursor: pointer;
 }
 
+
 #sns .sns-container .images li img{
     width: 152px;
-    height: 141px;
+}
+
+#sns .sns-container .images li:not(:first-child):hover > img{
+    width: 160px;
+    
 }
 
 #sns .sns-container .images li:first-child img{
@@ -428,6 +453,7 @@ main section .title .line{
     height: 504px;
     margin-right: 96px;
 }
+
 
 #sns .sns-container > a{
     position: absolute;

@@ -138,7 +138,11 @@ $(function(){
     });
     
     $('#sns .sns-container .images li').click(function(){
-        $(this).prependTo('#sns .sns-container .images');
+        var selected_img = $(this).find('img').attr('src');
+        var first_img = $('#sns .sns-container .images li').eq(0).find('img').attr('src');
+        $('#sns .sns-container .images li').eq(0).find('img').attr('src',selected_img);
+        $(this).find('img').attr('src', first_img);
+        console.log(selected_img);
     })
 
     $('#gnb .mobile-menu').click(function(){
